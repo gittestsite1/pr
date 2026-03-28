@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="description" content="실무에 바로 적용 가능한 AI 협업 방법으로 업무 생산성을 높이고 창의적인 일에 집중하세요." />
+    <title>AI 협업 · 실무 생산성</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text">AI Work Lab</span>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <p class="hero-label">개인 브랜딩</p>
+        <h1 id="hero-title" class="hero-title">실무에 힘을 주는 AI 협업</h1>
+        <p class="hero-lead">
+          AI 활용이 막막한 직장인에게 실무에 바로 적용 가능한 AI 협업 방법을 통해, 업무 생산성을 극대화하고 창의적인 일에 집중하는 즐거움을 제공합니다.
+        </p>
+        <a href="#topics" class="btn btn-ghost">콘텐츠 보기</a>
+      </section>
+
+      <section id="topics" class="topics" aria-labelledby="topics-title">
+        <div class="section-head">
+          <h2 id="topics-title" class="section-title">다루는 주제</h2>
+          <p class="section-sub">바로 업무에 옮길 수 있는 관점과 사례 중심으로 정리했습니다.</p>
+        </div>
+
+        <ul class="topic-list">
+          <li class="topic-card" data-reveal>
+            <span class="topic-num">01</span>
+            <h3 class="topic-title">AI 워크 스마트: 실전 AI 활용법 &amp; 성공 사례</h3>
+            <p class="topic-desc">현장에서 통하는 활용법과 사례 중심으로 일하는 방식을 다듬습니다.</p>
+          </li>
+          <li class="topic-card" data-reveal>
+            <span class="topic-num">02</span>
+            <h3 class="topic-title">AI 동료 만들기: No-code/Low-code 업무 자동화</h3>
+            <p class="topic-desc">반복 업무를 줄이고, 나만의 업무 협업 파트너를 만듭니다.</p>
+          </li>
+          <li class="topic-card" data-reveal>
+            <span class="topic-num">03</span>
+            <h3 class="topic-title">AI로 데이터 인사이트 발견: 데이터 분석 &amp; 시각화</h3>
+            <p class="topic-desc">숨은 패턴을 찾고 의사결정에 바로 연결합니다.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="cta-block" aria-labelledby="cta-title">
+        <div class="cta-inner" data-reveal>
+          <h2 id="cta-title" class="cta-title">함께 이야기 나눠요</h2>
+          <p class="cta-text">관심 있는 주제나 고민을 가볍게 공유할 수 있는 커피챗입니다. 아래 버튼은 추후 구글 폼으로 연결됩니다.</p>
+          <!-- 구글 폼 URL: [script.js] 상단 COFFEE_CHAT_FORM_URL 에 붙여넣기 -->
+          <a href="#" class="btn btn-primary" id="coffee-chat-btn">커피챗 신청하기</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="footer-copy">© <span id="year"></span> AI Work Lab · 실무 AI 협업</p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
